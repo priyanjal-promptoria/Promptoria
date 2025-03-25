@@ -1,3 +1,25 @@
+.about-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
 /* Main body styling */
 body {
     font-family: 'Calibri', sans-serif;
