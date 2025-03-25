@@ -1,0 +1,178 @@
+/* Main body styling */
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Main title */
+.main-title {
+    background-color: #b3e5fc;
+    color: #0d47a1;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Subtitle styling */
+.sub-title {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Box container */
+.box {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+/* Content styling */
+.content {
+    padding: 15px 20px;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: justify;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Specific styles for each box */
+
+/* Mathilde Loisel */
+.title-mathilde {
+    background-color: #ffcc80;
+    color: #e65100;
+}
+.content-mathilde {
+    background-color: #ffe0b2;
+}
+
+/* Anne Gregory */
+.title-anne {
+    background-color: #81c784;
+    color: #1b5e20;
+}
+.content-anne {
+    background-color: #c8e6c9;
+}
+
+/* Think-Tank */
+.title-thinktank {
+    background-color: #ce93d8;
+    color: #6a1b9a;
+}
+.content-thinktank {
+    background-color: #f3e5f5;
+}
+
+/* Fowler */
+.title-fowler {
+    background-color: #ffcc80;
+    color: #e65100;
+}
+.content-fowler {
+    background-color: #ffe0b2;
+}
+
+/* Woman in Red */
+.title-womanred {
+    background-color: #aed581;
+    color: #33691e;
+}
+.content-womanred {
+    background-color: #e8f5e9;
+}
+
+/* Lencho */
+.title-lencho {
+    background-color: #fdd835;
+    color: #000000;
+}
+.content-lencho {
+    background-color: #fff9c4;
+}
+
+/* Postmaster */
+.title-postmaster {
+    background-color: #ffa726;
+    color: #000000;
+}
+.content-postmaster {
+    background-color: #ffe0b2;
+}
+
+/* Nelson Mandela */
+.title-nelson {
+    background-color: #e57373;
+    color: #b71c1c;
+}
+.content-nelson {
+    background-color: #ffcdd2;
+}
+
+/* Valli */
+.title-valli {
+    background-color: #9575cd;
+    color: #311b92;
+}
+.content-valli {
+    background-color: #e1bee7;
+}
+
+/* Conductor */
+.title-conductor {
+    background-color: #fdd835;
+    color: #ff6f00;
+}
+.content-conductor {
+    background-color: #fff9c4;
+}
+
+/* Pilot */
+.title-pilot {
+    background-color: #8e24aa;
+    color: #4a148c;
+}
+.content-pilot {
+    background-color: #f3e5f5;
+}
+
+/* Baby */
+.title-baby {
+    background-color: #4caf50;
+    color: #1b5e20;
+}
+.content-baby {
+    background-color: #c8e6c9;
+}
+
+/* Flight */
+.title-flight {
+    background-color: #e57373;
+    color: #b71c1c;
+}
+.content-flight {
+    background-color: #ffccbc;
+}
+
+/* Herriot */
+
+
+
