@@ -130,15 +130,14 @@ body {
 #page-links li {
     margin: 8px 0;
 }
-
-#page-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 8px 12px;
-    background-color: #e8f5e9;
-    border-radius: 5px;
-    transition: 0.3s ease;
+/* Explore All Pages Section */
+#page-links {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 #page-links a:hover {
