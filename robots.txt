@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+# Allowing all content to be crawled
+
+# Pointing to the Sitemap
+Sitemap: https://priyanjal-promptoria.github.io/Promptoria/sitemap.xml

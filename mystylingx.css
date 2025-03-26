@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+}
+
+/* Header Styling */
+.header {
+    background-color: #4a90e2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #a8edea;
+}
+
+/* Container Sections */
+.container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.container h2 {
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #4a90e2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: lavender;
+}
+
+/* Header Styling */
+.header {
+    background-color: #4a90e2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #ff4f81;
+}
+
+/* Container Sections */
+.container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: honeydew;
+    border-bottom: 1px solid #ddd;
+}
+
+.container h2 {
+    color: #333;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #4a90e2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sidebar a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

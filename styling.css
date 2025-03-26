@@ -1,0 +1,151 @@
+/* Main body styling */
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Main title */
+.main-title {
+    background-color: #b3e5fc;
+    color: #0d47a1;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Subtitle styling */
+.sub-title {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Box container */
+.box {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    font-family: cursive;
+}
+
+/* Content styling */
+.content {
+    padding: 15px 20px;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: justify;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Specific styles for each box */
+
+/* Mathilde Loisel */
+.title-mathilde {
+    color: #e65100;
+}
+.content-mathilde {
+}
+
+/* Anne Gregory */
+.title-anne {
+    color: #1b5e20;
+}
+.content-anne {
+}
+
+/* Think-Tank */
+.title-thinktank {
+    color: #6a1b9a;
+}
+.content-thinktank {
+}
+
+/* Fowler */
+.title-fowler {
+    color: #e65100;
+}
+.content-fowler {
+}
+
+/* Woman in Red */
+.title-womanred {
+    color: #33691e;
+}
+.content-womanred {
+}
+
+/* Lencho */
+.title-lencho {
+    color: #000000;
+}
+.content-lencho {
+}
+
+/* Postmaster */
+.title-postmaster {
+    color: #000000;
+}
+.content-postmaster {
+}
+
+/* Nelson Mandela */
+.title-nelson {
+    color: #b71c1c;
+}
+.content-nelson {
+}
+
+/* Valli */
+.title-valli {
+    color: #311b92;
+}
+.content-valli {
+}
+
+/* Conductor */
+.title-conductor {
+    color: #ff6f00;
+}
+.content-conductor {
+}
+
+/* Pilot */
+.title-pilot {
+    color: #4a148c;
+}
+.content-pilot {
+}
+
+/* Baby */
+.title-baby {
+    color: #1b5e20;
+}
+.content-baby {
+}
+
+/* Flight */
+.title-flight {
+    color: #b71c1c;
+}
+.content-flight {
+}
+
+/* Herriot */
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Home Page -->
+   <url>
+      <loc>https://priyanjal-promptoria.github.io/Promptoria/</loc>
+      <lastmod>2025-03-26</lastmod>
+      <priority>1.00</priority>
+   </url>
+   <!-- Document Page -->
+   <url>
+      <loc>https://priyanjal-promptoria.github.io/Promptoria/document.html</loc>
+      <lastmod>2025-03-26</lastmod>
+      <priority>0.80</priority>
+   </url>
+   <!-- Additional Pages (Add more if required) -->
+   <!--
+   <url>
+      <loc>https://priyanjal-promptoria.github.io/Promptoria/page-1.html</loc>
+      <lastmod>2025-03-26</lastmod>
+      <priority>0.70</priority>
+   </url>
+   -->
+</urlset>
