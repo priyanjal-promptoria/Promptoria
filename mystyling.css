@@ -1,0 +1,158 @@
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #dcedc8;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #388e3c;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #2e7d32;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #43a047;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffca28;
+    padding: 12px 24px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffb300;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Character Box */
+.character-box {
+    background-color: #D0F0C0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.character-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Word List */
+.word-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.word-list li {
+    background-color: lavender;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #263238;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    max-width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Social Links */
+.social-icon {
+    display: block;
+    margin: 5px 0;
+    color: #b2dfdb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #4CAF50;
+}
+
+/* Copyright Text */
+.copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #b0bec5;
+}
