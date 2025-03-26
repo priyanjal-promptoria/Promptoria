@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Banner General Styles */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Banner Content */
+.content {
+    max-width: 700px;
+    animation: slideIn 1.5s ease-out;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Banner 1 - High-Quality Notes */
+.banner1 {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Banner 2 - Interactive Quizzes */
+.banner2 {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+/* Banner 3 - Expert Guidance */
+.banner3 {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+/* Animation for Fade In */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation for Slide In */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
