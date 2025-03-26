@@ -107,3 +107,41 @@ body {
     background-color: #333;
     color: #fff;
 }
+#page-links {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#page-links h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#page-links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#page-links li {
+    margin: 8px 0;
+}
+
+#page-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#page-links a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
