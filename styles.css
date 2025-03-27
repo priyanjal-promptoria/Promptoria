@@ -1,0 +1,342 @@
+/* General Styles */
+body {
+    margin: 50;
+    padding: 50;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    scroll-behavior: smooth;
+    background-color: beige;
+}
+
+h2 {
+    align-items: center;
+}
+
+h2 {}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    height: 60px;
+}
+/* Style for the container */
+.navbar {
+    width: 100vw; /* Full width of the screen */
+    background-color: #f0f0f0; /* Light background */
+    padding: 10px 0; /* Padding above and below */
+    text-align: center; /* Center align links */
+}
+
+/* Style for the links */
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin: 0 15px; /* Space between links */
+    padding: 5px 10px; /* Padding inside links */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Light hover effect */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Slideshow Container */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    height: 100vh;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Overlay with Padding */
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%; /* Less width for text */
+    padding: 20px; /* Added space between text and border */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds slight background for readability */
+    border-radius: 10px; /* Rounded corners */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Services Container */
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    background-color: beige;
+}
+
+
+
+/* Flip Card Styles */
+.flip-card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+/* Flip Card Inner */
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Flip Card Hover Effect */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Flip Card Front and Back */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added space inside the box */
+    box-sizing: border-box; /* Ensure padding stays inside */
+    text-align: center;
+}
+
+/* Front Side Styles */
+.flip-card-front h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #4facfe;
+}
+
+.flip-card-front p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Back Side Styles */
+.flip-card-back {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .flip-card {
+        width: 90%;
+        height: 180px;
+    }
+
+    .flip-card-front h3 {
+        font-size: 1.3rem;
+    }
+
+    .flip-card-front p {
+        font-size: 1rem;
+    }
+
+    .flip-card-back p {
+        font-size: 1rem;
+    }
+}
+
+/* Footer Section */
+.footer {
+    background-color: #263238;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: unset;
+}
+/* Footer container styles */
+.footer {
+    position: relative;
+    width: 100%; /* Full screen width */
+    background-color: #263238; /* Dark background */
+    color: #fff; /* White text */
+    text-align: left; /* Align text and links to the left */
+    /* padding: 20px; */ /* Padding added for spacing */
+}
+
+/* Footer heading style */
+.footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Footer links style */
+.footer a {
+    text-decoration: none;
+    color: #f0f0f0;
+    display: block; /* Each link on a new line */
+    margin: 0; /* Space between links */
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #4caf50; /* Green hover effect */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    max-width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Social Links */
+.social-icon {
+    display: block;
+    margin: 5px 0;
+    color: #b2dfdb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #4CAF50;
+}
+
+/* Copyright Text */
+.copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #b0bec5;
+}
+/* About Us Box Styles */
+.about-box {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+    background: #f5f7fa;
+}
+
+.about-container {
+    background: linear-gradient(to right, #ffefba, #ffffff);
+    border: 3px solid #4facfe;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.about-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading Style */
+.about-container h2 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4facfe;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph Style */
+.about-container p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Learn More Button */
+.btn-learn-more {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+/* Button Hover Effect */
+.btn-learn-more:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 1.5rem;
+    }
+    .about-container h2 {
+        font-size: 1.8rem;
+    }
+    .about-container p {
+        font-size: 1rem;
+    }
+}
+
