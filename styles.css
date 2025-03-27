@@ -25,29 +25,26 @@ h2 {}
 .logo {
     height: 60px;
 }
-
-/* Navigation */
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-    text-align: center;
+/* Style for the container */
+.navbar {
+    width: 100vw; /* Full width of the screen */
+    background-color: #f0f0f0; /* Light background */
+    padding: 10px 0; /* Padding above and below */
+    text-align: center; /* Center align links */
 }
 
-.nav-links li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.nav-links a {
+/* Style for the links */
+.navbar a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1.2rem;
-    transition: color 0.3s ease-in-out;
+    color: #333;
+    font-size: 16px;
+    margin: 0 15px; /* Space between links */
+    padding: 5px 10px; /* Padding inside links */
 }
 
-.nav-links a:hover {
-    color: #ffeb3b;
+.navbar a:hover {
+    background-color: #ddd; /* Light hover effect */
+    border-radius: 5px; /* Rounded corners */
 }
 
 /* Slideshow Container */
