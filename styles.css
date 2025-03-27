@@ -208,6 +208,7 @@ p {
     color: #fff; /* White text */
     text-align: left; /* Align text and links to the left */
     padding: 15px 20px; /* Padding added for spacing */
+    position: relative 
 }
 
 /* Footer heading style */
