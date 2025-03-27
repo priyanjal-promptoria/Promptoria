@@ -221,7 +221,7 @@ p {
     text-decoration: none;
     color: #f0f0f0;
     display: block; /* Each link on a new line */
-    margin: 2px 0; /* Space between links */
+    margin: 0; /* Space between links */
     font-size: 14px;
 }
 
