@@ -1,7 +1,11 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /private/
+Disallow: /test/
+Disallow: /temp/
 
-# Allowing all content to be crawled
+# Allow all other pages to be crawled
+Allow: /
 
-# Pointing to the Sitemap
+# Specify Sitemap URL
 Sitemap: https://priyanjal-promptoria.github.io/Promptoria/sitemap.xml
