@@ -92,64 +92,25 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* Footer Section */
+/* Footer */
 .footer {
-    background-color: #000;
-    color: #fff;
-    width: 100%; /* Full width */
-    padding: 20px 0;
+    background-color: #333;
+    color: white;
     text-align: center;
-    box-sizing: border-box; /* Prevent padding from affecting width */
-}
-
-/* Footer Container */
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
+    position: relative;
     width: 100%;
 }
 
-/* Footer Sections */
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 20px;
-}
-
-/* Footer Heading */
-.footer-section h3 {
-    color: #b39ddb;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-/* Footer Text and Links */
-.footer-section p, .footer-section a {
-    font-size: 14px;
-    color: #ccc;
+.footer a {
+    color: #ffeb3b;
     text-decoration: none;
+    margin: 0 10px;
 }
 
-/* Hover Effect on Links */
-.footer-section a:hover {
-    color: #b39ddb;
+.footer a:hover {
     text-decoration: underline;
 }
-
-/* Footer Bottom Section */
-.footer-bottom {
-    background-color: #111;
-    padding: 10px 0;
-    font-size: 12px;
-    color: #ccc;
-    width: 100%; /* Full width */
-    box-sizing: border-box;
-}
-
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -242,4 +203,24 @@ nav a:hover {
     color: #ffeb3b;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
