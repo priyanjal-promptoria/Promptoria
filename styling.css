@@ -173,3 +173,50 @@ body {
 h3 {
     color: blueviolet;
     margin-bottom: 10px;
+/* Footer Section */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    color: #b39ddb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #b39ddb;
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #111;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #ccc;
+}
