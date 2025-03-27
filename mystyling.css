@@ -7,7 +7,7 @@ body {
 
 /* Header Section */
 .header {
-    background-color: #4CAF50;
+    background-color: #b2dfdb;
     padding: 20px;
     text-align: center;
     color: white;
@@ -21,7 +21,7 @@ body {
 .tagline {
     font-size: 18px;
     margin-top: 5px;
-    color: #dcedc8;
+    color: #263238;
 }
 
 nav {
@@ -45,7 +45,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background-color: #43a047;
+    background-color: #d596b4;
     padding: 60px 20px;
     text-align: center;
     color: white;
@@ -82,11 +82,12 @@ nav a:hover {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: lavender;
 }
 
 /* Character Box */
 .character-box {
-    background-color: #D0F0C0;
+    background-color: snow;
     padding: 15px;
     border-radius: 8px;
     margin-top: 10px;
@@ -104,7 +105,7 @@ nav a:hover {
 }
 
 .word-list li {
-    background-color: lavender;
+    background-color: snow;
     padding: 8px;
     margin-top: 5px;
     border-radius: 5px;
@@ -133,7 +134,7 @@ nav a:hover {
 }
 
 h3 {
-    color: #4CAF50;
+    color: blueviolet;
     margin-bottom: 10px;
 }
 
