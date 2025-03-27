@@ -12,7 +12,7 @@ body {
     color: #0d47a1;
     text-align: center;
     padding: 12px 0;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
 }
@@ -20,9 +20,11 @@ body {
 /* Subtitle styling */
 .sub-title {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 /* Box container */
@@ -37,16 +39,16 @@ body {
 /* Title styling */
 .title {
     padding: 12px 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
-    font-family: cursive;
+    font-family: calibri;
 }
 
 /* Content styling */
 .content {
     padding: 15px 20px;
-    font-size: 14px;
+    font-size: 15px;
     background-color: #ffffff;
     text-align: justify;
     border-radius: 0 0 10px 10px;
@@ -56,35 +58,35 @@ body {
 
 /* Mathilde Loisel */
 .title-mathilde {
-    color: #e65100;
+    color: #000000;
 }
 .content-mathilde {
 }
 
 /* Anne Gregory */
 .title-anne {
-    color: #1b5e20;
+    color: #000000;
 }
 .content-anne {
 }
 
 /* Think-Tank */
 .title-thinktank {
-    color: #6a1b9a;
+    color: #000000;
 }
 .content-thinktank {
 }
 
 /* Fowler */
 .title-fowler {
-    color: #e65100;
+    color: #000000;
 }
 .content-fowler {
 }
 
 /* Woman in Red */
 .title-womanred {
-    color: #33691e;
+    color: #000000;
 }
 .content-womanred {
 }
@@ -105,47 +107,45 @@ body {
 
 /* Nelson Mandela */
 .title-nelson {
-    color: #b71c1c;
+    color: #000000;
 }
 .content-nelson {
 }
 
 /* Valli */
 .title-valli {
-    color: #311b92;
+    color: #000000;
 }
 .content-valli {
 }
 
 /* Conductor */
 .title-conductor {
-    color: #ff6f00;
+    color: #000000;
 }
 .content-conductor {
 }
 
 /* Pilot */
 .title-pilot {
-    color: #4a148c;
+    color: #000000;
 }
 .content-pilot {
 }
 
 /* Baby */
 .title-baby {
-    color: #1b5e20;
+    color: #000000;
 }
 .content-baby {
 }
 
 /* Flight */
 .title-flight {
-    color: #b71c1c;
+    color: #000000;
 }
 .content-flight {
 }
 
 /* Herriot */
-
-
 
