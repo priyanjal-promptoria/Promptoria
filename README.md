@@ -38,9 +38,6 @@ Welcome to **Promptoria**! 🚀 This educational platform is designed to provide
 ---
 
 ## 📧 Contact
-For any queries or feedback, feel free to contact us at [support@promptoria.com](mailto:support@promptoria.com).
+For any queries or feedback, feel free to contact us at.
 
 ---
-
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
