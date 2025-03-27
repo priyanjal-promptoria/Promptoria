@@ -1,23 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <!-- Home Page -->
-   <url>
-      <loc>https://priyanjal-promptoria.github.io/Promptoria/</loc>
-      <lastmod>2025-03-26</lastmod>
-      <priority>1.00</priority>
-   </url>
-   <!-- Document Page -->
-   <url>
-      <loc>https://priyanjal-promptoria.github.io/Promptoria/document.html</loc>
-      <lastmod>2025-03-26</lastmod>
-      <priority>0.80</priority>
-   </url>
-   <!-- Additional Pages (Add more if required) -->
-   <!--
-   <url>
-      <loc>https://priyanjal-promptoria.github.io/Promptoria/page-1.html</loc>
-      <lastmod>2025-03-26</lastmod>
-      <priority>0.70</priority>
-   </url>
-   -->
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/</loc>
+        <priority>1.0</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- All Notes Page -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/allnotes.html</loc>
+        <priority>0.9</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    <!-- New Document Page -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/newdocument.html</loc>
+        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Character Sketches Page -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/charactersketches.html</loc>
+        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- About Page (Recommended) -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/about.html</loc>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Contact Page (Recommended) -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/contact.html</loc>
+        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Privacy Policy Page (Optional but Recommended for SEO) -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/privacy.html</loc>
+        <priority>0.3</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Terms and Conditions Page (Optional but Recommended) -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/terms.html</loc>
+        <priority>0.3</priority>
+        <changefreq>yearly</changefreq>
+    </url>
+
+    <!-- Blog Section (If you plan to add one) -->
+    <url>
+        <loc>https://priyanjal-promptoria.github.io/Promptoria/blog.html</loc>
+        <priority>0.6</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
 </urlset>
