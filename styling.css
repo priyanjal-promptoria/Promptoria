@@ -148,4 +148,28 @@ body {
 }
 
 /* Herriot */
+/* Footer Section */
+.footer {
+    background-color: #263238;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    max-width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+h3 {
+    color: blueviolet;
+    margin-bottom: 10px;
