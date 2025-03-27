@@ -7,12 +7,46 @@ body {
     scroll-behavior: smooth;
     background-color: beige;
 }
-
-h2 {
-    align-items: center;
+/* General container styling */
+.container,
+.about-box,
+.services-section,
+.service-container,
+.footer-content,
+.blog,
+#home {
+    width: 80%; /* Set a uniform width for all sections */
+    margin: 0 auto; /* Center the sections */
+    box-sizing: border-box;
 }
 
-h2 {}
+/* For flip cards */
+.flip-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Footer links and content */
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Header and navbar */
+.header,
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Ensures the content inside containers is properly aligned */
+.about-container,
+.service-container,
+.footer-content {
+    width: 100%;
+    box-sizing: border-box;
+}
 
 /* Header */
 .header {
