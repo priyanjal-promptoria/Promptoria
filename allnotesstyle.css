@@ -175,5 +175,16 @@ h3 {
 
     footer form {
         text-align: center;
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        padding: 1.5rem;
     }
+    .about-container h2 {
+        font-size: 1.8rem;
+    }
+    .about-container p {
+        font-size: 1rem;
+    }    
 }
