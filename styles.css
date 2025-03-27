@@ -206,8 +206,8 @@ p {
     width: 100vw; /* Full screen width */
     background-color: #333; /* Dark background */
     color: #fff; /* White text */
-    text-align: left;
-    padding: 15px 0; /* Space above and below */
+    text-align: left; /* Align text and links to the left */
+    padding: 15px 20px; /* Padding added for spacing */
 }
 
 /* Footer heading style */
@@ -220,7 +220,8 @@ p {
 .footer a {
     text-decoration: none;
     color: #f0f0f0;
-    margin: 0 10px;
+    display: block; /* Each link on a new line */
+    margin: 5px 0; /* Space between links */
     font-size: 14px;
 }
 
