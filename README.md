@@ -38,6 +38,11 @@ Welcome to **Promptoria**! 🚀 This educational platform is designed to provide
 ---
 
 ## 📧 Contact
-For any queries or feedback, feel free to contact us at.
+For any queries or feedback, feel free to contact us at h62905088@gmail.com
 
+---
+© 2025 Priyanjal, Promptoria. All rights reserved.
+
+Permission is granted to view and access this content for personal, non-commercial use only. 
+No part of this work may be copied, modified, or distributed in any form without prior written permission.
 ---
