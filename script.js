@@ -15,3 +15,8 @@ function showSlides() {
 
 // Initialize slideshow on load
 document.addEventListener("DOMContentLoaded", showSlides);
+/*
+© 2025 Priyanjal, Promptoria. All rights reserved.
+Unauthorized copying, modification, or distribution is strictly prohibited.
+*/
+
