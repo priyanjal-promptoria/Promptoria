@@ -114,9 +114,17 @@
     </div>
 
     <!-- Slideshow Section -->
-    <div class="slideshow-container">
-        <iframe src="alettertogod.html" width="100%" height="900px" frameborder="0"></iframe>
-    </div>
+   <div id="slideshow-container"></div>
+
+<script>
+    fetch('alettertogod.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('slideshow-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading the slideshow:', error));
+</script>
+
 
     <!-- Footer Section -->
     <footer class="footer">
