@@ -1,0 +1,314 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Animation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    max-width: 100vw;
+    max-height: 100vh;
+    text-align: justify;
+    background: linear-gradient(120deg, #84fab0, #8fd3f4);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    opacity: 0;
+}
+
+.slide.active {
+    z-index: 10;
+    opacity: 1;
+}
+
+/* Text Styling */
+.slide h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.slide p {
+    font-size: 20px;
+    color: #A52A2A;
+    margin-top: 10px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.slide h3 {
+     
+    font-size: 45px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.6;
+text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .word-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .word-list li {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .word-list li:last-child {
+            border-bottom: none;
+        }
+
+        .word {
+            font-weight: bold;
+            color: #ff5e62;
+        }
+
+        .definition {
+            margin-left: 10px;
+            color: #555;
+        }
+
+        /* Hover effect */
+        .word-list li:hover {
+            background-color: #f1f1f1;
+            transition: background 0.3s;
+        }
+</style>
+</head>
+<body>
+    <div class="video-container">
+
+        <!-- Slide 1 -->
+        <section class="slide active" id="slide1">
+<h3>Scholarly Scrolls</h3>
+            <h2>A Letter to God</h2>
+            <p>"A Letter to God," written by Gregorio López y Fuentes, is a heartwarming story set in a rural Mexican village. It revolves around Lencho, a hardworking and poor farmer who depends entirely on his crops for survival. Living with his family on a small hilltop house, Lencho cultivates his fields with dedication and waits eagerly for the rains to nourish his crops. When his prayers are answered and it starts to rain, Lencho feels overjoyed and considers the raindrops as a blessing from God, referring to them as “new coins.” However, this joy is short-lived as the rain soon turns into a violent hailstorm that destroys his entire crop, leaving his family on the brink of starvation. Despite this unfortunate event, Lencho’s unwavering faith in God gives him hope. Believing that divine help will come, he writes a letter to God, asking for one hundred pesos to replant his field and sustain his family. His innocence and pure trust in God lead him to the local post office where he mails the letter. The postman and the postmaster, deeply moved by Lencho’s faith, decide to help him by collecting money from their colleagues. Although they manage to gather only seventy pesos, they send it to Lencho under the name “From God” to preserve his belief. However, Lencho, upon receiving less money than he requested, assumes that the post office employees stole part of the money, showcasing his innocence and irony of misunderstanding. The story highlights themes of faith, hope, generosity, and the irony of perception. It portrays the simplicity and trust of rural people and emphasizes how kindness and goodwill can often go unnoticed or misunderstood. Through Lencho’s blind faith and the silent charity of the postmaster, the narrative underlines the complexities of human emotions and belief systems.</p>
+        </section>
+
+        <!-- Slide 2 -->
+        <section class="slide" id="slide2">
+            <h2>Summary</h2>
+            <p><span style="color: DarkBlue;">📖 Introduction:</span> “A Letter to God” is a heartfelt story by Gregorio López y Fuentes that revolves around Lencho, a poor farmer who places unwavering faith in God despite his difficult circumstances. The story explores themes of faith, hope, and innocence, while also highlighting human kindness and the irony of misunderstood situations.<br>
+<span style="color: DarkBlue;">🌾 Lencho’s Life and His Love for Farming:</span> Lencho, a simple farmer, lives in a small house on the crest of a hill with his wife and children. His house, which overlooks a beautiful valley, is surrounded by a field that he cultivates with great dedication. His entire livelihood depends on his crops. Lencho, despite being poor, is a hardworking man who trusts nature and believes that God watches over him and his family.
+<br>
+<span style="color: DarkBlue;">⛈️ Hope for Rain and Its Arrival:</span> Lencho’s crops are almost ready for harvest, but they desperately need rain to grow properly. One evening, his long-awaited prayers are answered as the sky becomes filled with clouds, and it starts to rain. Lencho is overjoyed and feels the raindrops as a blessing from God, calling them “new coins” — the larger drops being ten-cent pieces and the smaller ones five-cent pieces.
+<br>
+<span style="color: DarkBlue;">🌨️ The Destruction of the Crops:</span> However, Lencho’s happiness is short-lived. Suddenly, the rain turns into a violent hailstorm that lasts for over an hour, destroying his entire crop. The hailstones cover the fields like a blanket of salt, leaving nothing behind. Lencho and his family are left devastated, knowing that they will have no food and no money to survive the coming year.
+<br>
+<span style="color: DarkBlue;">🙏 Lencho’s Unwavering Faith in God:</span> Despite the loss, Lencho does not give up hope. His deep faith in God makes him believe that help will surely come. He decides to write a letter to God, asking for one hundred pesos to replant his field and sustain his family. In his letter, Lencho expresses his desperate need and trust in God, confident that God will answer his request.</p>
+</section>
+
+<!-- Slide 2.1 -->
+        <section class="slide" id="slide2.1">
+            <p><span style="color: DarkBlue;">✉️ The Letter to God and the Postmaster’s Response:</span>
+Lencho addresses his letter simply to “God” and drops it in the mailbox. When the postman sees the letter, he is amused but touched by Lencho’s faith. He shows it to the postmaster, who is deeply moved by Lencho’s innocence and strong belief in God. The postmaster, being kind-hearted, decides to help Lencho.
+<br>
+
+<span style="color: DarkBlue;">💸 Collection of Money by the Postmaster:</span>
+The postmaster collects money from his colleagues and contributes a part of his own salary to gather as much as possible. However, they can only raise seventy pesos, which is less than what Lencho requested. Still, the postmaster sends the money to Lencho, signing it “From God” to maintain Lencho’s faith.
+<br>
+
+<span style="color: DarkBlue;">📩 Lencho’s Reaction and Misunderstanding:</span>
+Lencho receives the letter with money and is not surprised at all because he fully believes that God has answered his prayer. However, upon counting the money, he becomes angry when he finds only seventy pesos instead of the hundred he had requested. He believes that God would not make a mistake, and the missing amount must have been stolen.
+<br>
+
+<span style="color: DarkBlue;">✉️ Lencho’s Second Letter to God:</span>
+Lencho writes another letter to God, asking for the remaining money. This time, however, he requests God not to send the money through the post office, believing that the post office employees are thieves who stole part of the money. Ironically, the very people who helped him are now accused by Lencho, highlighting his innocence and misunderstanding.</p>
+</section>
+        <!-- Slide 3 -->
+        <section class="slide" id="slide3">
+            <h2>Message</h2>
+            <p><span style="color: DarkBlue;">Unwavering Faith:</span> Lencho’s deep faith in God demonstrates how belief can provide hope and strength during difficult times.
+<br>
+<span style="color: DarkBlue;">Hope in Adversity:</span> The story emphasizes the importance of staying hopeful, even when faced with challenges like the loss of crops.
+<br>
+<span style="color: DarkBlue;">Generosity and Kindness:</span> The postmaster and his colleagues show selflessness and humanity by collecting money to help Lencho.
+<br>
+<span style="color: DarkBlue;">Irony of Perception:</span> Lencho’s misunderstanding of human generosity highlights the irony of blind faith when he suspects others of dishonesty.
+<br>
+<span style="color: DarkBlue;">Connection with Nature:</span> The story subtly underlines the dependence of rural farmers on nature and the hardships caused by its unpredictability.
+<br>
+<span style="color: DarkBlue;">Trust in a Higher Power:</span> It portrays how people often turn to divine intervention when all else fails. 
+        </section>
+
+        <!-- Slide 4 -->
+        <section class="slide" id="slide4">
+            <h2>Characters</h2>
+            <p><span style="color: DarkBlue;">Lencho (A Letter to God):</span>
+Lencho is a hardworking farmer who deeply relies on nature for his livelihood. He has unwavering faith in God and believes that divine help will rescue him in times of need. When a hailstorm destroys his crops, he writes a letter to God, requesting financial aid. His innocence and blind trust in divine intervention make him a unique character. He is simple, honest, and somewhat naïve, as he fails to recognize the true source of the money he receives. His disappointment in the “dishonest” post office employees, despite their kindness, highlights his rigid belief system. Lencho represents the resilience and faith of poor farmers who depend entirely on nature and God for survival. His story underscores themes of faith, hope, and human kindness, even when misunderstood.
+<br>
+<span style="color: DarkBlue;">The Postmaster (A Letter to God):</span>
+The postmaster is a kind-hearted and generous man who empathizes with Lencho’s plight. Upon receiving Lencho’s letter to God, he is deeply moved by the farmer’s faith and decides to help. He collects money from his colleagues and contributes his own earnings to fulfill Lencho’s request. His actions highlight his compassionate and selfless nature. Despite Lencho’s misunderstanding—believing the post office staff stole part of the money—he does not seek recognition or gratitude. He represents the unseen kindness in humanity, proving that acts of goodness can exist without the need for acknowledgment. His character is a contrast to Lencho’s innocence, as he understands the harsh realities of life but still chooses to be generous. His role in the story emphasizes themes of empathy, selflessness, and silent charity.
+</p>
+</section>
+      
+<!-- Slide 5 -->
+        <section class="slide" id="slide5">
+            <h2>Words Meanings</h2>
+            <p><span style="color: blue;">Counter clerk</span> – A person working at a counter to assist customers.<br>
+    <span style="color: blue;">Appropriate</span> – Suitable or proper in the circumstances.<br>
+    <span style="color: blue;">Acknowledgement</span> – Recognition or acceptance of something.<br>
+    <span style="color: blue;">Counterfoil</span> – The detachable part of a check, ticket, or receipt kept as a record.<br>
+    <span style="color: blue;">Record</span> – A written or stored account of information or events.<br>
+    <span style="color: blue;">Solitary</span> – Existing or done alone; isolated.<br>
+    <span style="color: blue;">Downpour</span> – A heavy and sudden rainfall.<br>
+    <span style="color: blue;">Intimately</span> – Closely or deeply; in a personal or private way.<br>
+    <span style="color: blue;">Exclaimed</span> – Cried out suddenly in surprise, anger, or excitement.<br>
+    <span style="color: blue;">Regarded</span> – Considered or thought of in a specific way.<br>
+    <span style="color: blue;">Draped</span> – Covered or hung with cloth or fabric.<br>
+    <span style="color: blue;">Exposed</span> – Revealed or uncovered; left unprotected.<br>
+    <span style="color: blue;">Resemble</span> – To look like or be similar to.<br>
+    <span style="color: blue;">Predicted</span> – Forecasted or stated what will happen in the future.<br>
+    <span style="color: blue;">Approaching</span> – Coming nearer in time or distance.<br>
+    <span style="color: blue;">Hailstones</span> – Pieces of ice falling from the sky as hail.<br>
+    <span style="color: blue;">Curtain</span> – A piece of cloth used to block or cover.<br>
+    <span style="color: blue;">Plague</span> – A disastrous event causing harm or trouble.<br>
+</p>
+
+        </section>
+
+<!-- Slide 5.1 -->
+        <section class="slide" id="slide5.1">
+           
+            <p>
+    <span style="color: blue;">Locusts</span> – Insects that swarm and destroy crops.<br>
+    <span style="color: blue;">Ox of a man</span> – A strong, hardworking man.<br>
+    <span style="color: blue;">Daybreak</span> – The first appearance of light in the morning; dawn.<br>
+    <span style="color: blue;">Conscience</span> – A person’s sense of right and wrong.<br>
+    <span style="color: blue;">Envelope</span> – A flat paper container for letters or documents.<br>
+    <span style="color: blue;">Correspondence</span> – Written communication, usually in the form of letters.<br>
+    <span style="color: blue;">Amiable</span> – Friendly and pleasant in manner.<br>
+    <span style="color: blue;">Evident</span> – Clear or obvious to the understanding.<br>
+    <span style="color: blue;">Goodwill</span> – Friendly or helpful feelings or intentions.<br>
+    <span style="color: blue;">Resolution</span> – A firm decision to do or not to do something.<br>
+    <span style="color: blue;">For an act of charity</span> – As a gesture of kindness or aid to someone in need.<br>
+    <span style="color: blue;">Obliged</span> – Grateful or thankful for a favor.<br>
+    <span style="color: blue;">Usual</span> – Commonly occurring or done; habitual.<br>
+    <span style="color: blue;">Good deed</span> – An action performed with good intentions or kindness.<br>
+    <span style="color: blue;">Contentment</span> – A state of satisfaction or happiness.<br>
+    <span style="color: blue;">Looked on</span> – Observed or watched without participating.<br>
+    <span style="color: blue;">Wrinkling of his brow</span> – Furrowing of the forehead, often due to worry or concentration.<br>
+    <span style="color: blue;">Bunch of crooks</span> – A group of dishonest or untrustworthy people.
+</p>
+
+</section>
+
+<!-- Slide 6 -->
+        <section class="slide" id="slide6">
+            <h2>Oral Comprehension Check</h2>
+            <p><span style="color: blue;">What did Lencho hope for?</span><br> Lencho hoped for rain to nourish his crops so that he could have a good harvest.</p>
+            <p><span style="color: blue;">Why did Lencho say the raindrops were like ‘new coins’?</span><br>Lencho compared the raindrops to new coins because he believed that the rain would ensure a good harvest, which would bring him money.</p>
+            <p><span style="color: blue;">How did the rain change? What happened to Lencho’s fields?</span><br>The rain turned into a violent hailstorm, which destroyed Lencho’s crops completely, leaving his fields barren.</p>
+            <p><span style="color: blue;">What were Lencho’s feelings when the hail stopped?</span><br>Lencho was filled with despair and sadness after the hail stopped because his entire crop was destroyed, leaving him with no hope for survival.</p>
+       
+   <p><span style="color: blue;">Who or what did Lencho have faith in? What did he do?</span><br> Lencho had unwavering faith in God. After his crops were destroyed, he wrote a letter to God asking for 100 pesos to help him survive.</p>
+
+
+</section>
+<!-- Slide 6.1 -->
+        <section class="slide" id="slide6.1">
+<p><span style="color: blue;">Who read the letter?</span><br> The letter was read by the postman, who was amused but moved by Lencho’s faith. He then showed the letter to the postmaster.</p>
+
+<p><span style="color: blue;">What did the postmaster do then?</span><br> The postmaster, touched by Lencho’s innocence and faith, collected money from his colleagues and contributed a part of his own salary to help Lencho. He sent the money to Lencho, signing it ‘From God’ to maintain his faith.</p>
+
+<p><span style="color: blue;">Was Lencho surprised to find a letter for him with money in it?</span><br> No, Lencho was not surprised to receive the letter with money because he had complete faith that God would respond to his request.</p>
+
+<p><span style="color: blue;">What made him angry?</span><br> Lencho became angry when he counted the money and found only 70 pesos instead of 100. He believed that the remaining money was stolen by the post office employees.</p>
+
+</section>
+
+<!-- Slide 7 -->
+        <section class="slide" id="slide7">
+            <h2>Ncert Questions</h2>
+<p><span style="color: blue;">Who does Lencho have complete faith in? Which sentences in the story tell you this?</span><br>Lencho has complete faith in God. This is evident from the sentences: “It was during the meal, as Lencho had predicted, that, during the meal, big drops of rain began to fall” and “God: of the money that I asked for, only a little more than half came to me.”</p>
+
+<p><span style="color: blue;">Why does the postmaster send money to Lencho? Why does he sign the letter ‘God’?</span><br>The postmaster sends money to Lencho to preserve his faith in God. He signs the letter ‘God’ to maintain Lencho’s belief that God himself had answered his request.</p>
+
+<p><span style="color: blue;">Did Lencho try to find out who had sent the money to him? Why/Why not?</span><br>No, Lencho did not try to find out who sent the money because he was completely convinced that it was sent by God.</p>
+
+<p><span style="color: blue;">Who does Lencho think has taken the rest of the money? What is the irony in the situation?</span><br>Lencho believes that the post office employees have taken the rest of the money. The irony is that the very people who helped him out of kindness were accused of being thieves by Lencho.</p>
+
+
+</section>
+<!-- Slide 7.1 -->
+        <section class="slide" id="slide7.1">
+<p><span style="color: blue;">Are there people like Lencho in the real world? What kind of a person would you say he is?</span><br>Yes, there are people like Lencho in the real world. He can be described as naive, unquestioning, and ungrateful due to his blind faith and inability to see the kindness of others.</p>
+
+<p><span style="color: blue;">There are two kinds of conflict in the story: between humans and nature, and between humans themselves. How are these conflicts illustrated?</span><br>The conflict between humans and nature is shown when the hailstorm destroys Lencho’s crops, leaving his family in despair. The conflict between humans themselves arises when Lencho wrongly accuses the post office employees of stealing his money.</p>
+</section>
+
+</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach(slide => slide.classList.remove('active'));
+                slides[currentSlide].style.zIndex = 1;
+                gsap.to(slides[currentSlide], { duration: 1, x: '-100%', opacity: 0, ease: 'power2.out' });
+                currentSlide = index;
+                slides[currentSlide].style.zIndex = 10;
+                slides[currentSlide].classList.add('active');
+                gsap.fromTo(slides[currentSlide], { x: '100%', opacity: 0 }, { duration: 1, x: '0%', opacity: 1, ease: 'power2.out' });
+            }
+
+            function autoSlide() {
+                setInterval(() => {
+                    const nextSlide = (currentSlide + 1) % slides.length;
+                    showSlide(nextSlide);
+                }, 5000); // Change slide every 5 seconds
+            }
+
+            autoSlide();
+        });
+    </script>
+</body>
+</html>
