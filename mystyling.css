@@ -161,3 +161,8 @@ h3 {
 © 2025 Priyanjal, Promptoria. All rights reserved.
 Unauthorized copying, modification, or distribution is strictly prohibited.
 */
+.slide h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
