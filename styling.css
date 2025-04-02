@@ -39,10 +39,11 @@ body {
 /* Title styling */
 .title {
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
     font-family: calibri;
+    background: violet;
 }
 
 /* Content styling */
@@ -52,103 +53,10 @@ body {
     background-color: #ffffff;
     text-align: justify;
     border-radius: 0 0 10px 10px;
-    font-weight: bold
+    font-weight: bold;
 }
 
-/* Specific styles for each box */
 
-/* Mathilde Loisel */
-.title-mathilde {
-    color: #000000;
-}
-.content-mathilde {
-}
-
-/* Anne Gregory */
-.title-anne {
-    color: #000000;
-}
-.content-anne {
-}
-
-/* Think-Tank */
-.title-thinktank {
-    color: #000000;
-}
-.content-thinktank {
-}
-
-/* Fowler */
-.title-fowler {
-    color: #000000;
-}
-.content-fowler {
-}
-
-/* Woman in Red */
-.title-womanred {
-    color: #000000;
-}
-.content-womanred {
-}
-
-/* Lencho */
-.title-lencho {
-    color: #000000;
-}
-.content-lencho {
-}
-
-/* Postmaster */
-.title-postmaster {
-    color: #000000;
-}
-.content-postmaster {
-}
-
-/* Nelson Mandela */
-.title-nelson {
-    color: #000000;
-}
-.content-nelson {
-}
-
-/* Valli */
-.title-valli {
-    color: #000000;
-}
-.content-valli {
-}
-
-/* Conductor */
-.title-conductor {
-    color: #000000;
-}
-.content-conductor {
-}
-
-/* Pilot */
-.title-pilot {
-    color: #000000;
-}
-.content-pilot {
-}
-
-/* Baby */
-.title-baby {
-    color: #000000;
-}
-.content-baby {
-}
-
-/* Flight */
-.title-flight {
-    color: #000000;
-}
-.content-flight {
-}
-
-/* Herriot */
 /* Footer Section */
 .footer {
     background-color: #263238;
