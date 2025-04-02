@@ -48,10 +48,11 @@ body {
 /* Content styling */
 .content {
     padding: 15px 20px;
-    font-size: 15px;
+    font-size: 17px;
     background-color: #ffffff;
     text-align: justify;
     border-radius: 0 0 10px 10px;
+    font-weight: bold
 }
 
 /* Specific styles for each box */
