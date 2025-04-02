@@ -18,7 +18,7 @@
     <!-- New Document Page -->
     <url>
         <loc>https://priyanjal-promptoria.github.io/Promptoria/newdocument.html</loc>
-        <priority>0.8</priority>
+        <priority>1.0</priority>
         <changefreq>weekly</changefreq>
     </url>
 
